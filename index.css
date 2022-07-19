@@ -1,0 +1,50 @@
+/* Write all the necessery css  */
+
+*{
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+#create{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+input,select{
+    margin: 10px;
+    padding: 10px;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid black;
+}
+table th{
+    background-color: yellow;
+}
+table tr{
+    background-color: rgb(208, 200, 200);
+}
+table tr:hover{
+    background-color: rgb(211, 179, 179);
+}
+table th:hover{
+    background-color: bisque;
+}
+
